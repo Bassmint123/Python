@@ -1,4 +1,4 @@
-# Testing assigned variables.
+# Testing assigned variables and output.
 x = 5
 y = 7
 z = x + y
