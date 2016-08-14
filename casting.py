@@ -1,4 +1,4 @@
-# Brad casting some data types
+# Brad casting some data types.
 a = input('Enter a Number: ')
 b = input ('Now enter another number: ')
 
