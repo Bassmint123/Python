@@ -22,3 +22,28 @@ point_total = 100
 point_total += exercises_completed*points_per_exercise
 
 print("I got " + str(point_total) + " points!")
+
+# Using the escape backslash!
+'This isn\'t flying, this is falling with style!'
+
+
+# Printing the fifth letter in the word MONTY
+fifth_letter = "MONTY"[4]
+print fifth_letter
+
+# Using some string operators
+parrot = "Norwegian Blue"
+print len(parrot)      # Gives the length of the word parrot
+print parrot.lower()   # Prints Norwegian Blue in all lower case
+print parrot.upper()   # Prints Norwegian Blue in all upper case
+
+# Convert a number to a string
+pi = 3.1415
+print str(pi)
+
+# Using the % to print variables in place of the %s
+string_1 = "Camelot"
+string_2 = "place"
+
+print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
