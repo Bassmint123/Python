@@ -41,9 +41,21 @@ print parrot.upper()   # Prints Norwegian Blue in all upper case
 pi = 3.1415
 print str(pi)
 
-# Using the % to print variables in place of the %s
+"""
+Using the % to print variables in place of the %s. 
+You need the same number of %s terms in a string as the number of variables in parentheses
+"""
 string_1 = "Camelot"
 string_2 = "place"
 
 print "Let's not go to %s. 'Tis a silly %s." % (string_1, string_2)
+
+# Getting the input function into action
+name = raw_input("What is your name? ")
+quest = raw_input("What is your quest? ")
+color = raw_input("What is your favorite color? ")
+
+print "Ah, so your name is %s, your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
 
