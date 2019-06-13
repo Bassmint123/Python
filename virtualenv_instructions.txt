@@ -1,0 +1,46 @@
+virtualenv instructions
+
+First make sure you have virtualenv installed
+$ pip install virtualenv
+
+Make sure you have a directory to keep the environments in
+$ mkdir PyEnvironments   // let's use a directory called PyEnvironments for an example here
+
+Next, go to that directory
+cd PyEnvironments
+
+Next, create a virtual environment called project1_env
+$ virtualenv project1_env
+
+To fire-up our new virtual environment we do the following
+$ source project1_env/bin/activate
+
+You can check to see if you are in the new environment
+$ which python
+$ which pip
+
+If you do a pip list you will see there are virtually no site packages
+$ pip list
+
+You could install some packages
+$ pip install [whatever package name]  // pytz, psutil, numpy,...etc. are good examples
+
+You could do a pip list again to see if them listed out once they have been installed.
+
+If we want to export this same set of packages to another environment, we could do this
+$ pip freeze --local > requirements.txt
+
+If you want to see the packages saved
+$ cat requirements.txt
+
+If we want to leave our current virtual environment
+$ deactivate
+
+At this point, the project1_env no longer shows up. Also, we can check with
+$ which python
+
+Also if we do a pip list, we would see all of our global packages
+$ pip list
+
+
+
