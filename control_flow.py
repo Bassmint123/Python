@@ -49,5 +49,17 @@ print(bool_four)
 bool_five = False or not (True and True)
 print(bool_five)
 
+# Using if statements with methods
+def using_control_once():
+    if (4 < 5):
+        return "Success #1"
+
+def using_control_again():
+    if (5 == 5):
+        return "Success #2"
+
+print using_control_once()
+print using_control_again()
+
 
 
