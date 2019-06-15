@@ -1,5 +1,5 @@
 
-# Gonna be using <, !=, >, <=, ==, >= in the next few lines
+# Gonna be using the following comparators <, !=, >, <=, ==, >= in the next few lines
 
 bool_one = 3 < 5  # Evaluates to True  
 
@@ -49,7 +49,7 @@ print(bool_four)
 bool_five = False or not (True and True)
 print(bool_five)
 
-# Using if statements with methods
+# Using if statements with functions
 def using_control_once():
     if (4 < 5):
         return "Success #1"
@@ -74,6 +74,28 @@ print greater_less_equal_5(4)
 print greater_less_equal_5(5)
 print greater_less_equal_5(6)
 
+# Calculating some grades with conditionals, booleans and control flow
+
+def grade_converter(grade):
+    if grade >= 90:
+        return "A"
+    elif grade >= 80 and grade <= 89:
+        return "B"
+    elif grade >= 70 and grade <= 79:
+        return "C"
+    elif grade >= 65 and grade <= 69:
+        return "D"
+    else:
+        return "F"
+      
+# This should print an "A"      
+print grade_converter(92)
+
+# This should print a "C"
+print grade_converter(70)
+
+# This should print an "F"
+print grade_converter(61)
 
 
 
