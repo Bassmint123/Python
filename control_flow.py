@@ -1,5 +1,5 @@
 
-# Gonna be using the following comparators <, !=, >, <=, ==, >= in the next few lines
+# Going to be using the following comparators <, !=, >, <=, ==, >= in the next few lines
 
 bool_one = 3 < 5  # Evaluates to True  
 
@@ -15,7 +15,7 @@ bool_six = 5 == 5 # Evaluates to True
 
 bool_seven = 6 >= 5 # Evaluates to True
 
-# Gonna do some booleans here using AND
+# Going to do some booleans here using AND
 
 bool_one = False and False 
 print (bool_one) # Evaluates to False
