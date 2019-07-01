@@ -1,3 +1,5 @@
+As an alternative to pipenv, we can use virtualenv although this will not get the handy pipfile it does provide requirements.txt for doing environment exporting.
+
 virtualenv instructions
 
 First make sure you have virtualenv installed
