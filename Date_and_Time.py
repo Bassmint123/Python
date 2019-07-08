@@ -1,4 +1,4 @@
-# Getting the Current Date and Time
+# Getting the Current Date and Time and print to screen
 from datetime import datetime
 now = datetime.now()
 
