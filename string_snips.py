@@ -58,4 +58,11 @@ color = raw_input("What is your favorite color? ")
 print "Ah, so your name is %s, your quest is %s, " \
 "and your favorite color is %s." % (name, quest, color)
 
+# In this case we can setup the string in a variable with %s, %d, $f, %x used within in it.
+# Notice the variable data is not using set notation like data=[x,y,z] 
+data = ("John", "Doe", 53.44)
+format_string = "Hello %s %s. Your current balance is $%s."
+
+print(format_string % data)
+
 
